@@ -1,0 +1,36 @@
+{
+    "chain_name": "selfchain-mainnet",
+    "api": [
+        {
+            "address": "https://selfchain-api.validator247.com", 
+            "provider": "Validator247"
+        },
+        {
+            "address": "https://api.selfchain.io", 
+            "provider": "SelfChain"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://selfchain-rpc.validator247.com", 
+            "provider": "Validator247"
+        },
+        {
+            "address": "https://rpc.selfchain.io:26657", 
+            "provider": "SelfChain"
+        }
+    ],
+    "sdk_version": "0.37.4",
+    "snapshot_provider": "",
+    "coin_type": "118",
+    "min_tx_fee": "200",
+    "addr_prefix": "self",
+    "logo": "/logos/selfchain.png",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "uslf",
+        "symbol": "SLF",
+        "exponent": "6",
+        "logo": "/logos/selfchain.png"
+    }]
+}
