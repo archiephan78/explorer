@@ -2,17 +2,17 @@
     "chain_name": "zero-gravity-testnet",
     "api": [
         {
-            "address": "https://0g-testnet-api.validator247.com", 
+            "address": "https://0g-v2-testnet-api.validator247.com", 
             "provider": "Validator247"
         }
     ], 
     "rpc": [
         {
-            "address": "https://0g-testnet-rpc.validator247.com", 
+            "address": "https://0g-v2-testnet-rpc.validator247.com", 
             "provider": "Validator247"
         }
     ],
-    "sdk_version": "0.47.3",
+    "sdk_version": "0.34.27",
     "snapshot_provider": "",
     "coin_type": "118",
     "min_tx_fee": "6000",
