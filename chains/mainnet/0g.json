@@ -2,14 +2,14 @@
     "chain_name": "zero-gravity-testnet",
     "api": [
         {
-            "address": "https://0g-newton-v2-testnet-api.validator247.com", 
-            "provider": "Validator247"
+            "address": "http://localhost:26317", 
+            "provider": "archie-local-test"
         }
     ], 
     "rpc": [
         {
-            "address": "https://0g-newton-v2-testnet-rpc.validator247.com", 
-            "provider": "Validator247"
+            "address": "http://127.0.0.1:26545", 
+            "provider": "archie-local-test"
         }
     ],
     "sdk_version": "0.34.27",
